@@ -1,0 +1,88 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    /* background-color: skyblue; */
+    background-image: linear-gradient(rgb(60, 171, 215),skyblue,lightblue);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40vh;
+    justify-content: center;
+    padding-top: 2rem;
+    /* background-color: skyblue;     */
+}
+h1{
+    margin-bottom: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#input #search{
+    height: 1.3rem;
+    padding:0.1rem;
+    padding-left: 0.2rem;
+    border-radius: 0.3rem;
+    
+}
+
+#input #search-btn{
+    font-weight: 600;
+    border-radius: 0.3rem;
+    padding: 0.1rem 0.3rem;
+    height: 1.5rem;
+    cursor: pointer;
+}
+#search::placeholder{
+    text-align: center;
+    color: grey;
+}
+
+#weatherData{
+    /* width: 80%; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+  
+    place-items: center;
+    /* border: 1px solid black; */
+}
+#info{
+    width: 20%;
+    background-color: bisque;
+    padding: 1rem;
+    border: 0.1rem solid black;
+    border-radius: 0.7rem;
+}
+h3{
+    text-align: center;
+}
+#temp{
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    text-align: center;
+    border-bottom: 0.1rem solid gray;
+}
+#other-info div {
+    text-align: center;
+    border-radius: 0.3rem;
+    border-bottom: 0.1rem solid grey;
+
+}
+#other-info div p{
+    /* width: 80%; */
+    margin: 0.2rem;
+}
+
+#error{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
